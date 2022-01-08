@@ -3,31 +3,46 @@
 }
 
 .pageElements {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 
+.content
 .navBar {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .navButtons {
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .title {
-
+    margin: 1em;
+    font-size: 36pt;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fishCollection {
 
 }
 
-.section-header {
+.sectionHeader {
+    color: green;
 
 }
 
 .fish{
+    display: flex;
+    background-color: grey;
 
 }
 
@@ -37,4 +52,26 @@
 
 .tipsList {
     
+}
+
+.tankTipsList{
+
+}
+
+.locationsSection {
+
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.locationImage {
+
+}
+
+.tankTipsList {
+
 }
