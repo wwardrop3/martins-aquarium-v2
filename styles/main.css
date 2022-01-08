@@ -1,0 +1,32 @@
+* {
+    border: 2px solid coral;
+}
+
+.pageElements {
+
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navButtons {
+
+}
+
+.title {
+
+}
+
+.fishCollection {
+
+}
+
+.section-header {
+
+}
+
+.fish{
+    
+}
